@@ -89,6 +89,8 @@ Then this will Open
 
 > Then give this path "--module-path="**your path**" --add-modules=javafx.controls"     
 
+> Click on Apply and then Ok.
+
 Then Run this and your Program       
 
 
@@ -141,5 +143,6 @@ https://youtu.be/HuFOCEHh8Zg?list=PLWNp8oG8cwHA5oEljPsrjYoJ2U0L7p7b1&t=16
 
 ***THESE TWO LAST STEPS " CREATE ARTIFACTS AND BUILD ARTIFACT" ARE SAME FOR LINUX ALSO TO BUILD YOUR OWN JAR FILE OF YOUR PROJECT.***       
 
-**Aftre doing all these My programlook like this.**     
+**Aftre doing all these My program look like this.**     
+
 ![image](https://user-images.githubusercontent.com/75372853/188258441-69dc968d-454d-4059-9bee-3a6c4d3e4572.png)
