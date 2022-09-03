@@ -2,7 +2,7 @@
 This is Temperature Converter app.  
 It's based on JDK-18 and JAVA-FX and turn into JAR(JAVA ARCHIVE) to use is as stand alone.
 
-To use it as JAR file you hav to do this following steps. 
+To use it as JAR file you have to do this following steps. 
 
 Install Java on your Computer.  
 
