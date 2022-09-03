@@ -90,3 +90,56 @@ Then this will Open
 > Then give this path "--module-path="**your path**" --add-modules=javafx.controls"     
 
 Then Run this and your Program       
+
+
+**After installation**      
+After installing these dependencies you haow to do some stuff to make **JAR** file to run because version after **JDK-11** are have basic problem or we called we have to give **JAR files permissions** to run by double clicking on it.       
+
+***LINUX***     
+> Go to folder where **JAR File** is stroed.        
+
+If you downloaded this Project the **JAR File** are in **TemperatureConverter/out/artifacts** folder.
+
+> Open folder in terminal
+
+>     ls
+
+>     ls -n
+
+>     chmod +x filename.jar
+
+> Hit Enter
+
+> Double click on JAR File and Use as executable app.
+
+***NOTE :- IF YOU CREATED YOUR OWN PROJECT. YOU HAVE TO CREATE A FAKE MAIN CLASS OR JAVA FILE IN PROJECT AND CONNECT TO YOUR MAIN FILE BY WRITE THIS***   
+
+> public class class_name{
+    public void main(String[] args){
+        Main_file_class_name.main(args);
+    }
+  }     
+  
+IF YOU DON'T GET IT PLEASE GO THROUGH THIS VIDEO DOWN THEIR.        
+https://youtu.be/TR7aQZPO9jg?list=PLWNp8oG8cwHA5oEljPsrjYoJ2U0L7p7b1&t=29   
+
+***WINDOWS***
+> Create a additional **CLASS or JAVA file** which connect the **main java file** and paste this
+
+> public class class_name{
+    public void main(String[] args){
+        Main_file_class_name.main(args);
+    }
+  }
+  
+> Create artifacts with library files
+
+> Build artifacts
+
+**For above tWo step if you don't know how to do these please go through this video**        
+https://youtu.be/HuFOCEHh8Zg?list=PLWNp8oG8cwHA5oEljPsrjYoJ2U0L7p7b1&t=16       
+
+***THESE TWO LAST STEPS " CREATE ARTIFACTS AND BUILD ARTIFACT" ARE SAME FOR LINUX ALSO TO BUILD YOUR OWN JAR FILE OF YOUR PROJECT.***       
+
+**Aftre doing all these My programlook like this.**     
+![image](https://user-images.githubusercontent.com/75372853/188258441-69dc968d-454d-4059-9bee-3a6c4d3e4572.png)
